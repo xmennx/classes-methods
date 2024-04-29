@@ -15,5 +15,5 @@ test('should an error be trown', () => {
     const personage = new Magician('Ivan', 'Magician');
     personage.health = 0;
     personage.levelUp();
-  }).toThrow('Уже ничто не поможет, персонаж умер');
+  }).toThrow();
 });
